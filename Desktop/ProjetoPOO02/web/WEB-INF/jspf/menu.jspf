@@ -1,6 +1,11 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
-<li><a href="index.jsp">Início</a></li>
-<li><a href="usuario/novo.jsp">Novo Usuárrio</a></li>
-<li><a href="usuario/cadastros.jsp">Cadastros</a></li>
-<hr>
+
+        <h3>Clientes</h3>
+        <li><a href="cliente/novo.jsp">Novo Usuárrio</a></li>
+        <li><a href="cliente/cadastros.jsp">Cadastros</a></li>
+    <hr>
+    <h3>Fornecedores</h3>
+        <li><a href="fornecedor/novo.jsp">Novo Usuárrio</a></li>
+        <li><a href="fornecedor/cadastros.jsp">Cadastros</a></li>
+    <hr>
