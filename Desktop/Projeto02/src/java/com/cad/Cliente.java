@@ -11,15 +11,15 @@ package com.cad;
  */
 public class Cliente{
 
-    private String nome, cpf, rg, email, endereco;
-    private int telefone;
+    private String nomecliente, cpf, rg, emaicliente, enderecocliente;
+    private int telefonecliente;
 
-    public String getNome() {
-        return nome;
+    public String getNomecliente() {
+        return nomecliente;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomecliente(String nomecliente) {
+        this.nomecliente = nomecliente;
     }
 
     public String getCpf() {
@@ -38,29 +38,29 @@ public class Cliente{
         this.rg = rg;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmaicliente() {
+        return emaicliente;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmaicliente(String emaicliente) {
+        this.emaicliente = emaicliente;
     }
 
-    public int getTelefone() {
-        return telefone;
+    public int getTelefonecliente() {
+        return telefonecliente;
     }
 
-    public void setTelefone(int telefone) {
-        this.telefone = telefone;
+    public void setTelefonecliente(int telefonecliente) {
+        this.telefonecliente = telefonecliente;
    
     }
     
-    public String getEndereco() {
-        return endereco;
+    public String getEnderecocliente() {
+        return enderecocliente;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setEnderecocliente(String enderecocliente) {
+        this.enderecocliente = enderecocliente;
     }
 }
    
