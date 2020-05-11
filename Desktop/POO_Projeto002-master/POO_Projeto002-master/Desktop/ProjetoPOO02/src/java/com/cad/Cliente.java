@@ -11,7 +11,7 @@ package com.cad;
  */
 public class Cliente{
 
-    private String nomecliente, cpf, rg, emaicliente, enderecocliente;
+    private String nomecliente, cpf, rg, emailcliente, enderecocliente;
     private int telefonecliente;
 
     public String getNomecliente() {
@@ -38,12 +38,12 @@ public class Cliente{
         this.rg = rg;
     }
 
-    public String getEmaicliente() {
-        return emaicliente;
+    public String getEmailcliente() {
+        return emailcliente;
     }
 
-    public void setEmaicliente(String emaicliente) {
-        this.emaicliente = emaicliente;
+    public void setEmailcliente(String emailcliente) {
+        this.emailcliente = emailcliente;
     }
 
     public int getTelefonecliente() {
