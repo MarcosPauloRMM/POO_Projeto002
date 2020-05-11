@@ -7,7 +7,7 @@ package com.cad;
 
 /**
  *
- * @author angelo
+ * @author Marcos Paulo da Rocha Moura Miúdo
  */
 public class Cliente{
 

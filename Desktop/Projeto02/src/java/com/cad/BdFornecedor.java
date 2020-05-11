@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author angelo
+ * @author Marcos Paulo da Rocha Moura Miúdo
  */
 public class BdFornecedor {
     

@@ -7,7 +7,7 @@ package com.cad;
 
 /**
  *
- * @author User
+ * @author Marcos Paulo da Rocha Moura Miúdo
  */
 public class Fornecedor {
    private String nomefornecedor, razaosocial, cnpj, emaifornecedor, enderecofornecedor;
