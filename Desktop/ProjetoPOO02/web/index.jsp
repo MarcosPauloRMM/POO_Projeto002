@@ -12,8 +12,16 @@
         <title>Inicio</title>
     </head>
     <body>
-        <h1>Cadastro de Usuarios</h1>
+        <h1>Cadastro</h1>
         <h2>Bem Vindo! Escolha uma função:</h2>
-        <%@include file="WEB-INF/jspf/menu.jspf"%> 
+        
+        <h3>Clientes</h3> 
+        
+        <hr>
+        <h3>Fornecedores</h3> 
+        
+        <hr>
+
+        
     </body>
 </html>
