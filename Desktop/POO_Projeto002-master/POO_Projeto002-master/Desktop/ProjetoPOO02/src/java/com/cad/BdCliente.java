@@ -19,11 +19,13 @@ public class BdCliente {
         if(usercliente == null){
             usercliente = new ArrayList<>();
             Cliente admincliente = new Cliente();
-            admincliente.setNomecliente("Marcos Paulo da Rocha Moura Miudo");
-            admincliente.setRg("12.345.678-X");
-            admincliente.setEmailcliente("marcospaulomoura1999@empresa.com");
-            admincliente.setTelefonecliente(13-997662319);
-            admincliente.setEnderecocliente("Rua X, N° XX,"); 
+            admincliente.setNomecliente("Grupo005");
+            admincliente.setCpfcliente("12.345.678-X");
+            admincliente.setRgcliente("12.345.678-X");
+            admincliente.setEmailcliente("admin@grupo005.com");
+            admincliente.setTelefonecliente(1234567890);
+            admincliente.setEnderecocliente("Cidade X, Rua X, N° XX"); 
+            usercliente.add(admincliente);
         }
         return usercliente;
     }  

@@ -10,7 +10,7 @@ package com.cad;
  * @author Marcos Paulo da Rocha Moura Miúdo
  */
 public class Fornecedor {
-   private String nomefornecedor, razaosocial, cnpj, emaifornecedor, enderecofornecedor;
+   private String nomefornecedor, razaosocialfornecedor, cnpjfornecedor, emailfornecedor, enderecofornecedor;
     private int telefonefornecedor;
 
     public String getNomefornecedor() {
@@ -21,28 +21,28 @@ public class Fornecedor {
         this.nomefornecedor = nomefornecedor;
     }
 
-    public String getRazaosocial() {
-        return razaosocial;
+    public String getRazaosocialfornecedor() {
+        return razaosocialfornecedor;
     }
 
-    public void setRazaosocial(String razaosocial) {
-        this.razaosocial = razaosocial;
+    public void setRazaosocialfornecedor(String razaosocialfornecedor) {
+        this.razaosocialfornecedor = razaosocialfornecedor;
     }
 
-    public String getCnpj() {
-        return cnpj;
+    public String getCnpjfornecedor() {
+        return cnpjfornecedor;
     }
 
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
+    public void setCnpjfornecedor(String cnpjfornecedor) {
+        this.cnpjfornecedor = cnpjfornecedor;
     }
 
-    public String getEmaifornecedor() {
-        return emaifornecedor;
+    public String getEmailfornecedor() {
+        return emailfornecedor;
     }
 
-    public void setEmaifornecedor(String emaifornecedor) {
-        this.emaifornecedor = emaifornecedor;
+    public void setEmailfornecedor(String emaifornecedor) {
+        this.emailfornecedor = emaifornecedor;
     }
 
     public String getEnderecofornecedor() {

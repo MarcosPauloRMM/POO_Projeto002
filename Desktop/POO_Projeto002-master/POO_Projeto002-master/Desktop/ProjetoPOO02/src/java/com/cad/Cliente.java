@@ -11,7 +11,7 @@ package com.cad;
  */
 public class Cliente{
 
-    private String nomecliente, cpf, rg, emailcliente, enderecocliente;
+    private String nomecliente, cpfcliente, rgcliente, emailcliente, enderecocliente;
     private int telefonecliente;
 
     public String getNomecliente() {
@@ -22,20 +22,20 @@ public class Cliente{
         this.nomecliente = nomecliente;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getCpfcliente() {
+        return cpfcliente;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setCpfcliente(String cpfcliente) {
+        this.cpfcliente = cpfcliente;
     }
 
-    public String getRg() {
-        return rg;
+    public String getRgcliente() {
+        return rgcliente;
     }
 
-    public void setRg(String rg) {
-        this.rg = rg;
+    public void setRgcliente(String rgcliente) {
+        this.rgcliente = rgcliente;
     }
 
     public String getEmailcliente() {

@@ -1,7 +1,7 @@
 <%-- 
     Document   : editarcliente
     Created on : 11/05/2020, 15:36:26
-    Author     : User
+    Author     : Marcos Paulo da Rocha Moura Miúdo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

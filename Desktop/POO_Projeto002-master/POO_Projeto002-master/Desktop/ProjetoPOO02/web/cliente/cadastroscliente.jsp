@@ -1,7 +1,7 @@
 <%-- 
     Document   : cadastroscliente
     Created on : 11/05/2020, 15:35:47
-    Author     : User
+    Author     : Marcos Paulo da Rocha Moura Miúdo
 --%>
 <%@page import="com.cad.BdCliente"%>
 <%@page import="com.cad.Cliente"%>
@@ -29,16 +29,16 @@
                 <%for (Cliente user: BdCliente.getUsercliente()) {%>
             </tr>
             <td><%= user.getNomecliente()%></td>
-            <td><%= user.getCpf()%></td>
-            <td><%= user.getRg()%></td>
+            <td><%= user.getCpfcliente()%></td>
+            <td><%= user.getRgcliente()%></td>
             <td><%= user.getEmailcliente()%></td>
             <td><%= user.getEnderecocliente()%></td>
+            <td><%= user.getTelefonecliente()%></td>
             <td>
                 <%int i = BdCliente.getUsercliente().indexOf(user);%>
                 <a href="editarcliente.jsp?i=<%=i%>">Alterar</a>
                 <a href="excluircliente.jsp?i=<%=i%>">Deletar</a>
             </td>
-           
             </tr>
             <%}%>
         </table>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : novocliente
     Created on : 11/05/2020, 15:35:22
-    Author     : User
+    Author     : Marcos Paulo da Rocha Moura Miúdo
 --%>
 
 <%@page import="com.cad.BdCliente"%>
@@ -15,35 +15,35 @@
 <%
     String error = null;
     if(request.getParameter("add") !=  null){
-        String nome = request.getParameter("nome");
-        String cpf = request.getParameter("cpf");
-        String rg = request.getParameter("rg");
-        String email = request.getParameter("email");
-        int telefone = Integer.parseInt(request.getParameter("telefone"));
-        String endereco = request.getParameter("endereco");
+        String newnomecliente = request.getParameter("nomecliente");
+        String newcpfcliente = request.getParameter("cpfcliente");
+        String newrgcliente = request.getParameter("rgcliente");
+        String newemailcliente = request.getParameter("emailcliente");
+        int newtelefonecliente = Integer.parseInt(request.getParameter("telefonecliente"));
+        String newenderecocliente = request.getParameter("enderecocliente");
                 
-        if(nome.isEmpty()){
+        if(newnomecliente.isEmpty()){
             error = "Nome Inválido";
         }
-        if(cpf.isEmpty()){
-            error = "Nome Inválido";
+        if(newcpfcliente.isEmpty()){
+            error = "CPF Inválido";
         }
-        if(rg.isEmpty()){
-            error = "Nome Inválido";
+        if(newrgcliente.isEmpty()){
+            error = "RG Inválido";
         }
-        if(email.isEmpty()){
-            error = "Nome Inválido";
+        if(newemailcliente.isEmpty()){
+            error = "E-mail Inválido";
         }
-        if(endereco.isEmpty()){
-            error = "Nome Inválido";
+        if(newenderecocliente.isEmpty()){
+            error = "Endereço Inválido";
         }else{
                 Cliente user = new Cliente();
-                user.setNomecliente(nome);
-                user.setCpf(cpf);
-                user.setRg(rg);
-                user.setEmailcliente(email);
-                user.setTelefonecliente(telefone);
-                user.setEnderecocliente(endereco); 
+                user.setNomecliente(newnomecliente);
+                user.setCpfcliente(newcpfcliente);
+                user.setRgcliente(newrgcliente);
+                user.setEmailcliente(newemailcliente);
+                user.setTelefonecliente(newtelefonecliente);
+                user.setEnderecocliente(newenderecocliente); 
                 
                 BdCliente.getUsercliente().add(user);
                 response.sendRedirect("cadastroscliente.jsp");
@@ -64,18 +64,18 @@
             <div style="color:red"><%=error%></div>
         <%}%>
         <form method="post">
-            Nome do usuário:<br/>
-            <input type="text" name="nome"/><br/>
-            Razão Social:<br/>
-            <input type="text" name="nome"/><br/>
-            CNPJ:<br/>
-            <input type="number" name="email"/><br/>
+            Nome do Cliente:<br/>
+            <input type="text" name="nomecliente"/><br/>
+            CPF:<br/>
+            <input type="number" name="cpfcliente"/><br/>
+            RG:<br/>
+            <input type="number" name="rgcliente"/><br/>
             E-mail:<br/>
-            <input type="email" name="email"/><br/>
+            <input type="email" name="emailcliente"/><br/>
             Telefone:<br/>
-            <input type="number" name="email"/><br/>
+            <input type="number" name="telefonecliente"/><br/>
             Endereço:<br/>
-            <input type="text" name="email"/><br/><br/>
+            <input type="text" name="enderecocliente"/><br/><br/>
             <input type="submit" name="add" value="Adicionar"/><br/>
         </form>
     </body>
