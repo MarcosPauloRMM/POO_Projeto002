@@ -24,6 +24,7 @@
                 <th>RG</th>
                 <th>E-Mail</th>
                 <th>Endereço</th>
+                <th>Telefone</th>
                 <th>Opções</th>
             <tr>
                 <%for (Cliente user: BdCliente.getUsercliente()) {%>

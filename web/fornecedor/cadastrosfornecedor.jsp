@@ -25,6 +25,7 @@
                 <th>CNPJ</th>
                 <th>E-Mail</th>
                 <th>Telefone</th>
+                <th>Endereço</th>
                 <th>Opções</th>
             <tr>
                 <%for (Fornecedor user: BdFornecedor.getUserFornecedor()) {%>
