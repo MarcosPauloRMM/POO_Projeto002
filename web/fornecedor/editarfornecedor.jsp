@@ -64,9 +64,9 @@
         <form method="post">
             <input type="hidden" name="i" value="<%=i%>">
             Nome do fornecedor<br/>
-            <input type="text" name="Nome" value="<%= user.getNomefornecedor()%>"/><br/>
+            <input type="text" name="nome" value="<%= user.getNomefornecedor()%>"/><br/>
             CNPJ:<br/>
-            <input type="number" name="Cnpj" value="<%= user.getCnpjfornecedor() %>"/><br/>
+            <input type="text" name="cnpj" value="<%= user.getCnpjfornecedor() %>"/><br/>
             Razao Social:<br/>
             <input type="text" name="Razaosocial" value="<%= user.getRazaosocialfornecedor() %>"/><br/>
             E-mail:<br/>
@@ -74,7 +74,7 @@
             Telefone:<br/>
             <input type="number" name="telefone" value="<%= user.getTelefonefornecedor() %>"/><br/>
             Endereco:<br/>
-            <input type="text" name="Endereco" value="<%= user.getEnderecofornecedor() %>"/><br/>
+            <input type="text" name="endereco" value="<%= user.getEnderecofornecedor() %>"/><br/>
             
             
             <input type="submit" name="edit" value="Editar"/><br/>
