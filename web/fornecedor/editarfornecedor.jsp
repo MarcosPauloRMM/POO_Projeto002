@@ -68,7 +68,7 @@
             CNPJ:<br/>
             <input type="text" name="cnpj" value="<%= user.getCnpjfornecedor() %>"/><br/>
             Razao Social:<br/>
-            <input type="text" name="Razaosocial" value="<%= user.getRazaosocialfornecedor() %>"/><br/>
+            <input type="text" name="razaosocial" value="<%= user.getRazaosocialfornecedor() %>"/><br/>
             E-mail:<br/>
             <input type="email" name="email" value="<%= user.getEmailfornecedor()%>"/><br/>
             Telefone:<br/>
