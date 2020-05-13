@@ -20,7 +20,7 @@ public class BdCliente {
             usercliente = new ArrayList<>();
             Cliente admincliente = new Cliente();
             admincliente.setNomecliente("Grupo005");
-            admincliente.setCpfcliente("12.345.678-X");
+            admincliente.setCpfcliente("123.456.789-10");
             admincliente.setRgcliente("12.345.678-X");
             admincliente.setEmailcliente("admin@grupo005.com");
             admincliente.setTelefonecliente(1234567890);
