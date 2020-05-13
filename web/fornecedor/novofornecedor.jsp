@@ -52,7 +52,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Novo - Cadastro de Usuarios</title>
+        <title>Excluir - Cadastro de Usuarios</title>
     </head>
     <body>
         <h1>Cadastro de Usuarios:</h1>

@@ -17,7 +17,7 @@
         <%@include file="WEB-INF/jspf/menu.jspf"%> 
         
         
-        <h4>Autores:</h4>
+        <h4>Autores:</h4><br/>
         <h4>Alana Pagani Barros</h4>
         <h4>Marcos Paulo da Rocha Moura Miúdo</h4>
         <h4>Yan Matheus Iamamura Andrade</h4>
