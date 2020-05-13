@@ -39,7 +39,7 @@
         }else{
                 Fornecedor user = new Fornecedor();
                 user.setNomefornecedor(newnomefornecedor);
-                user.setCnpjfornecedor(newrazaosocialfornecedor);
+                user.setRazaosocialfornecedor(newrazaosocialfornecedor);
                 user.setCnpjfornecedor(newcnpjfornecedor);
                 user.setEmailfornecedor(newemailfornecedor);
                 user.setTelefonefornecedor(newtelefonefornecedor);
