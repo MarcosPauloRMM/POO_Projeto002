@@ -7,7 +7,7 @@
 <%@page import="com.cad.Cliente"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<div style="text-align: center; font-family: verdana; background-image:url('fatec/img.jp'); ">
+<div style="text-align: center; font-family: verdana; ">
 
 <html>
     <head>
@@ -46,11 +46,6 @@
         </table>
     </body>
 </html>
-    <footer>
-        <%@include file="../WEB_INF/jspf/footer.jspf"%>
-    </footer>
-    </body>
-    
     </div>
         <footer>
             <%@include file="../WEB-INF/jspf/footer.jspf"%> 
