@@ -54,12 +54,12 @@
     <div style="text-align: center">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Novo - Cadastro de Usuarios</title>
+        <title>Cadastro Web:</title>
     </head>
     <body>
         <h1>Cadastro de Usuarios:</h1>
         <h2>Novo Cadastro:</h2>
-        <li><a href="cadastroscliente.jsp">Lista de Usuário</a><br/><br/></li>
+        <%@include file="../WEB-INF/jspf/menucliente.jspf"%>
         
         <%if(error!=null){%>
             <div style="color:red"><%=error%></div>

@@ -17,11 +17,10 @@
     <body>
         <h1>Cadastro</h1>
         <h2>Cadastros de Fornecedor</h2>
-        <li><a href="novocliente.jsp">Adicionar Novo Fornecedor</a><br/><br/></li>
-        <hr>
+        <%@include file="../WEB-INF/jspf/menufornecedor.jspf"%>
         <table border="1"> 
             <tr>
-                <th>Nome do Fornecedor</th>
+                <th>Cadastro Web:</th>
                 <th>Razão Social</th>
                 <th>CNPJ</th>
                 <th>E-Mail</th>

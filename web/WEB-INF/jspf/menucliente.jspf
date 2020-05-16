@@ -2,10 +2,8 @@
 <%@ page pageEncoding="UTF-8" %>
 
 
-<h3>Cliente</h3>
-<li><a href="cliente/novocliente.jsp">Novo Usuário</a></li>
-<li><a href="cliente/cadastroscliente.jsp">Cadastros</a></li>
-<h3>Fornecedor</h3>
-<li><a href="fornecedor/novofornecedor.jsp">Novo Usuário</a></li>
-<li><a href="fornecedor/cadastrosfornecedor.jsp">Cadastros</a></li>
+<li><a href="../index.jsp">Home</a></li>
+<li><a href="../cliente/novocliente.jsp">Novo Usuário</a></li>
+<li><a href="../cliente/cadastroscliente.jsp">Cadastros</a></li>
 <hr>
+
