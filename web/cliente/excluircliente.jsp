@@ -17,5 +17,8 @@
         <h2>Excluir Cadastro de Cliente</h2>
     </body>
     </div>
+        <footer>
+            <%@include file="../WEB-INF/jspf/footer.jspf"%> 
+        </footer>
 </html>
 

@@ -48,8 +48,8 @@
         </table>
     </body>
 </div>
-</html>
-
-    </body>
+        <footer>
+            <%@include file="../WEB-INF/jspf/footer.jspf"%> 
+        </footer>
 </html>
         

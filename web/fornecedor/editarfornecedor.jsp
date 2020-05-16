@@ -85,4 +85,7 @@
         <%}%>
     </body>
     </div>
+            <footer>
+            <%@include file="../WEB-INF/jspf/footer.jspf"%> 
+        </footer>
 </html>
