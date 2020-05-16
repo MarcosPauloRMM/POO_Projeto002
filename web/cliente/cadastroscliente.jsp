@@ -47,8 +47,12 @@
         </table>
     </body>
 </html>
-
+ <footer>
+       
+<%@include file="../jspf/footer.jspf" %>
+</footer>
     </body>
+    
     </div>
 </html>
         
