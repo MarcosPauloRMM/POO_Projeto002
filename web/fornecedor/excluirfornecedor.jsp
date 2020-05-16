@@ -10,7 +10,7 @@
     <div style="text-align: center; font-family: verdana;">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Excluir Fornecedor</title>
+        <title>Cadastro Web:</title>
     </head>
     <body>
         <h1>Cadastro</h1>

@@ -53,12 +53,12 @@
     <div style="text-align: center; font-family: verdana;">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Excluir - Cadastro de Usuarios</title>
+        <title>Cadastro Web:</title>
     </head>
     <body>
         <h1>Cadastro de Usuarios:</h1>
         <h2>Novo Cadastro:</h2>
-        <li><a href="cadastrosfornecedor.jsp">Lista de Usuário</a><br/><br/></li>
+        <%@include file="../WEB-INF/jspf/menufornecedor.jspf"%>
         
         <%if(error!=null){%>
             <div style="color:red"><%=error%></div>

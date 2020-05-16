@@ -51,11 +51,11 @@
     <div style="text-align: center; font-family: verdana;">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Editar cliente</title>
+        <title>Cadastro Web:</title>
     </head>
     <body>
         <h1>Editar Cliente</h1>
-        <h2><a href="cadastroscliente.jsp">Lista de Clientes</a></h2>
+        <%@include file="../WEB-INF/jspf/menucliente.jspf"%>
         <h3>Insira os dados novos</h3>
         
 

@@ -15,10 +15,9 @@
         <title>Cadastros de Cliente</title>
     </head>
     <body>
-        <h1>Cadastro</h1>
+        <h1>Cadastro Web:</h1>
         <h2>Cadastros de Cliente:</h2>
-        <li><a href="novocliente.jsp">Adicionar Novo Cliente</a><br/><br/></li>
-        <hr>
+        <%@include file="../WEB-INF/jspf/menucliente.jspf"%> 
         <table border="1"> 
             <tr>
                 <th>Nome do Cliente</th>

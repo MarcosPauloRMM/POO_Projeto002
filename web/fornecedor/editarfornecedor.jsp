@@ -53,11 +53,11 @@
     <div style="text-align: center; font-family: verdana;">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Editar fornecedor</title>
+        <title>Cadastro Web:</title>
     </head>
     <body>
         <h1>Editar fornecedor</h1>
-        <h2><a href="cadastrosfornecedor.jsp">Lista de Fornecedores</a></h2>
+        <%@include file="../WEB-INF/jspf/menufornecedor.jspf"%>
         <h3>Insira os dados novos</h3>
         
         
