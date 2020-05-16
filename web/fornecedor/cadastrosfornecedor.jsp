@@ -17,17 +17,15 @@
     <body>
         <h1>Cadastro</h1>
         <h2>Cadastros de Fornecedor</h2>
-        <li><a href="novofornecedor.jsp">Adicionar Novo Fornecedor</a><br/><br/></li>
-        <hr>
         <%@include file="../WEB-INF/jspf/menufornecedor.jspf"%>
         <table border="1"> 
             <tr>
-                <th>Cadastro Web:</th>
+                <th>Nome do Fornecedor:</th>
                 <th>Razão Social</th>
                 <th>CNPJ</th>
                 <th>E-Mail</th>
-                <th>Telefone</th>
                 <th>Endereço</th>
+                <th>Telefone</th>
                 <th>Opções</th>
             <tr>
                 <%for (Fornecedor user: BdFornecedor.getUserFornecedor()) {%>

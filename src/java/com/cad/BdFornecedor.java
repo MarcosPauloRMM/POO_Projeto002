@@ -24,7 +24,7 @@ public class BdFornecedor {
             adminfornecedor.setCnpjfornecedor("12.345.678/9101-12");
             adminfornecedor.setEmailfornecedor("Ricardo@ProfessorFatec.com");
             adminfornecedor.setTelefonefornecedor(01-987654321);
-            adminfornecedor.setEnderecofornecedor("Rua L, N° IV,"); 
+            adminfornecedor.setEnderecofornecedor("Cidade D, Rua L, N° IV,"); 
             userfornecedor.add(adminfornecedor);
         }
         return userfornecedor;

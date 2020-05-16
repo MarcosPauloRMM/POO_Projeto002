@@ -57,9 +57,7 @@
         <h1>Editar Cliente</h1>
         <%@include file="../WEB-INF/jspf/menucliente.jspf"%>
         <h3>Insira os dados novos</h3>
-        
 
-        
         <form method="post">
             <input type="hidden" name="i" value="<%=i%>">
             Nome do cliente:<br/>

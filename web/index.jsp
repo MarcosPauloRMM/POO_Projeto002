@@ -15,7 +15,7 @@
     <body>
         <h1>Cadastro</h1>
         <h2>Bem Vindo! Escolha uma função:</h2>
-        <%@include file="WEB-INF/jspf/menu.jspf"%> 
+        <%@include file="../WEB-INF/jspf/menu.jspf"%> 
         
         
         <h4>Autores:</h4><br/>
