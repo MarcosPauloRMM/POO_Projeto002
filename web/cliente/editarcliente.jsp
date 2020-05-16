@@ -48,6 +48,7 @@
 
 %>
 <html>
+    <div style="text-align: center">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Editar cliente</title>
@@ -84,4 +85,5 @@
         </form>
         
     </body>
+    </div>
 </html>

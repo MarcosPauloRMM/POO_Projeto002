@@ -50,6 +50,7 @@
         }
 %>
 <html>
+    <div style="text-align: center">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Excluir - Cadastro de Usuarios</title>
@@ -78,5 +79,6 @@
             <input type="submit" name="add" value="Adicionar"/><br/>
         </form>
     </body>
+</div>
 </html>
 

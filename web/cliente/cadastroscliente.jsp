@@ -7,6 +7,8 @@
 <%@page import="com.cad.Cliente"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<div style="text-align: center">
+
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -47,5 +49,6 @@
 </html>
 
     </body>
+    </div>
 </html>
         

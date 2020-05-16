@@ -50,6 +50,7 @@
 
 %>
 <html>
+    <div style="text-align: center">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Editar fornecedor</title>
@@ -83,4 +84,5 @@
             <div style="color:red"><%=error%></div>
         <%}%>
     </body>
+    </div>
 </html>
