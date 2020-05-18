@@ -6,12 +6,8 @@
         <div class="menu">
             <ul>
                 <center>
-                <li><a href="index.jsp">Home</a></li>
-                <li>///////////</li>
-                <li><a href="cliente/lista.jsp">Lista - Clientes</a></li>
-                <li>///////////</li>
-                <li><a href="fornecedor/lista.jsp">Lista - Fornecedores</a></li>
-                <li>///////////</li>
+                <li><a href="../index.jsp">Home</a></li>
+                
                 <center>
             </ul>
         </div>
